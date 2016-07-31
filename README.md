@@ -1,6 +1,6 @@
 # spring-aspectj-log-annotation
 
-This project demonstrates how to create a @LogInfo annotation which you can use as a kind of sensor over a method.
+This project demonstrates how to create a ```@LogInfo``` annotation which you can use as a kind of sensor over a method.
 
 **Example :**
 
@@ -13,7 +13,7 @@ public void testMethodWithAnnotation(String input1, String input2) {
 
 The mechanism is based on spring and aspectj, so it can't be used on private methods.
 
-The value passed to the in the annotation is in SpEL, so you can use computations, accessors, etc.
+The annotation value is in SpEL, so you can use computations, accessors, etc.
 
 **Example :**
 
